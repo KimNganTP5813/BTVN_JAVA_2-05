@@ -30,7 +30,7 @@ public class Session2_05 {
                 System.out.println("Tháng có 28 hoặc 29 ngày");
                 break;
             default:
-                if ( dayNumber<=0 && dayNumber>12) {
+                if ( dayNumber<=0 || dayNumber>12) {
                     System.out.println("Tháng không hợp lệ.");
                 }
                 break;
